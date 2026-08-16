@@ -15,16 +15,16 @@ export default function About() {
         <div className="relative z-10 flex flex-col md:flex-row gap-12 items-center">
           <div className="flex-1 max-w-2xl">
             <h1 className="text-5xl md:text-7xl font-display font-bold text-slate-900 mb-8">
-              {t('about.title', 'About Us')} 
+              {t('about.title', 'About me')} 
             </h1>
             <p className="text-2xl text-slate-900 font-medium leading-relaxed font-sans">
-              {t('about.intro', "I'm a passionate educator and technologist working to bridge the gap between digital tools and healthy child development. More story coming soon...")}
+              {t('about.intro', "I'm a passionate educator and technologist working to bridge the gap between digital tools and healthy child development.")}
             </p>
           </div>
           <div className="w-full md:w-[400px] flex-shrink-0">
             <div className="aspect-square bg-brand-pink rounded-3xl border-[3px] border-slate-900 shadow-[8px_8px_0_0_#0f172a] overflow-hidden rotate-3 hover:rotate-0 transition-transform duration-300">
               <img 
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800&h=800" 
+                src="/images/alfredo-morresi-profile.jpg" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />
@@ -40,9 +40,12 @@ export default function About() {
             <h2 className="text-3xl font-display font-bold text-slate-900 mb-6 relative z-10">
                 {t('about.mission_title', 'Our Mission')}
             </h2>
-            <p className="text-lg text-slate-700 font-medium leading-relaxed mb-6 font-sans relative z-10">
-               {t('about.mission_description', 'To empower parents with the knowledge and tools they need to guide their children in a rapidly evolving digital landscape. We believe technology should serve education and connection, not distraction.')}
-            </p>
+            <p 
+              className="text-lg text-slate-700 font-medium leading-relaxed mb-6 font-sans relative z-10"
+              dangerouslySetInnerHTML={{
+                __html: t('about.mission_description', 'To empower parents with the knowledge and tools they need to guide their children in a rapidly evolving digital landscape. We believe technology should serve education and connection, not distraction.')
+              }}
+            />
         </div>
 
         <div className="bg-brand-pink p-8 rounded-3xl chunky-box flex flex-col justify-center relative shadow-[6px_6px_0_0_#0f172a]">
@@ -53,9 +56,12 @@ export default function About() {
             <h2 className="text-3xl font-display font-bold text-slate-900 mb-6 relative z-10">
                  {t('about.vision_title', 'Our Vision')}
             </h2>
-            <p className="text-lg text-slate-900 font-medium leading-relaxed font-sans relative z-10">
-                 {t('about.vision_description', 'A world where families talk openly about technology, create healthy boundaries together, and use digital tools to expand their horizons and spark creativity.')}
-            </p>
+            <p 
+              className="text-lg text-slate-900 font-medium leading-relaxed font-sans relative z-10"
+              dangerouslySetInnerHTML={{
+                __html: t('about.vision_description', 'A world where families talk openly about technology, create healthy boundaries together, and use digital tools to expand their horizons and spark creativity.')
+              }}
+            />
         </div>
       </div>
 
