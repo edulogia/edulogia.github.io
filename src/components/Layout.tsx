@@ -1,5 +1,5 @@
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import { MonitorPlay, Heart, FileText, Menu, X, Globe, Sparkles } from 'lucide-react';
+import { MonitorPlay, Home, FileText, Menu, X, Globe, Sparkles } from 'lucide-react';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import EdulogiaLogo from './EdulogiaLogo';
@@ -10,7 +10,7 @@ export default function Layout() {
   const { t, i18n } = useTranslation();
 
   const navLinks = [
-    { name: t('layout.nav.home'), path: '/', icon: Heart },
+    { name: t('layout.nav.home'), path: '/', icon: Home },
     { name: t('layout.nav.blog'), path: '/blog', icon: FileText },
     { name: t('layout.nav.resources'), path: '/resources', icon: MonitorPlay },
     { name: t('layout.nav.about'), path: '/about', icon: Sparkles },
@@ -129,8 +129,8 @@ export default function Layout() {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center gap-2 mb-6">
-                <div className="bg-brand-yellow p-2 rounded-2xl chunky-box">
-                  <MonitorPlay className="w-6 h-6 text-slate-900" />
+                <div className="bg-brand-yellow p-1 rounded-2xl chunky-box flex items-center justify-center">
+                  <EdulogiaLogo size={36} />
                 </div>
                 <span className="font-display font-bold text-2xl text-white ml-2">Edu<span className="text-brand-pink">logia</span></span>
               </div>
