@@ -1,4 +1,5 @@
 import { getBlogPosts } from '../lib/blog';
+import { formatDate } from '../lib/utils';
 import { Calendar, Clock, ArrowRight, ArrowLeft, ArrowRightCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link, useSearchParams } from 'react-router-dom';
@@ -59,7 +60,7 @@ export default function Blog() {
               </h2>
 
               <div className="flex items-center gap-3 text-xs font-bold font-display uppercase tracking-wider text-slate-800 mb-6">
-                <span className="flex items-center gap-1 bg-slate-100 border-2 border-slate-900 px-3 py-1 rounded-full"><Calendar className="w-3 h-3" /> {post.date}</span>
+                <span className="flex items-center gap-1 bg-slate-100 border-2 border-slate-900 px-3 py-1 rounded-full"><Calendar className="w-3 h-3" /> {formatDate(post.date, currentLang)}</span>
               </div>
               
               <p className="text-slate-700 font-medium mb-8 flex-grow line-clamp-3 text-lg">
