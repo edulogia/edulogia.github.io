@@ -19,4 +19,5 @@ The various questions that emerged from the audience confirmed the **fundamental
 
 There were also questions about the role of artificial intelligence in all this, surrounded by a great deal of concern. But I will come back to this topic calmly another time.
 
-For now, I am left with a beautiful memory of a classroom with still some empty seats (as always happens a bit at these events) but certainly with a truly stimulating "density of minds" and points of view. And thanks again to [Sara](https://it.linkedin.com/in/sara-galeone) for having coordinated such an interesting and qualified number of interventions, and to [Anna](https://www.instagram.com/annina.ghezzi/) for being a fantastic moderator.
+For now, I am left with a beautiful memory of a classroom with still some empty seats (as always happens a bit at these events) but certainly with a truly stimulating "density of minds" and points of view.   
+And thanks again to [Sara](https://it.linkedin.com/in/sara-galeone) for having coordinated such an interesting and qualified number of interventions, and to [Anna](https://www.instagram.com/annina.ghezzi/) for being a fantastic moderator.
