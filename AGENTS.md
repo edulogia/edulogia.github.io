@@ -16,7 +16,7 @@ Welcome to the Edulogia codebase! This document provides persistent instructions
 
 ## Content Management (Blog & Resources)
 - **Blog Posts:** Markdown files located in `src/content/blog/`. Contains YAML frontmatter (`title`, `excerpt`, `date`, `tags`, `imageUrl`, `draft`, `slug`).
-- **Resources:** Markdown files located in `src/content/resources/`. Contains YAML frontmatter (`title`, `description`, `date`, `tags`, `icon`, `resource_url`, `featured`, `draft`, `slug`).
+- **Resources:** Markdown files located in `src/content/resources/`. Contains YAML frontmatter (`title`, `description`, `date`, `tags`, `icon`, `resource_url`, `featured`, `draft`, `published`, `slug`).
 - **Media / Images:** Place local image assets in `public/images/` and reference them using absolute paths (e.g., `/images/my-image.png`).
 - **Pagination & Sorting:** Both Blog and Resources sections feature chronological sorting and pagination (displaying 9 items per page).
 - **Internationalization (i18n):** For static UI text, use the `t()` function and update `src/locales/en.json` and `src/locales/it.json`. For content titles and excerpts, bilingual formats (e.g., `English Title | Titolo Italiano`) are encouraged.

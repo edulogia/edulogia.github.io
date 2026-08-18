@@ -8,6 +8,7 @@ icon: "Shield"
 resource_url: "https://docs.google.com/document/d/1Z0wsAA_qFRhGX1exKJreC6BoRfKZ8elRH0h6X6zF4lA/edit?usp=drive_link"
 featured: true
 draft: false
+published: true
 ---
 
 # Google Family Link Guide for Android
