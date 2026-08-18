@@ -48,13 +48,9 @@ export default function BlogPost() {
         </div>
 
         <div className="mt-12 pt-8 border-t-[3px] border-slate-100 flex items-center flex-wrap gap-2">
-          {(post.tags && post.tags.length > 0) ? (
-            post.tags.map(tag => (
-              <span key={tag} className="text-xs font-bold text-slate-600 uppercase tracking-wider font-display">#{tag}</span>
-            ))
-          ) : (
-            <span className="text-xs font-bold text-slate-600 uppercase tracking-wider font-display">#{post.category}</span>
-          )}
+          {post.tags && post.tags.length > 0 && post.tags.map(tag => (
+            <span key={tag} className="text-xs font-bold text-slate-600 uppercase tracking-wider font-display">#{tag}</span>
+          ))}
         </div>
       </article>
     </div>

@@ -69,13 +69,9 @@ export default function Blog() {
               
               <div className="flex flex-col gap-4 mt-auto">
                 <div className="flex items-center flex-wrap gap-2">
-                  {(post.tags && post.tags.length > 0) ? (
-                    post.tags.map((tag: string) => (
-                      <span key={tag} className="text-xs font-bold text-slate-600 uppercase tracking-wider font-display">#{tag}</span>
-                    ))
-                  ) : (
-                    <span className="text-xs font-bold text-slate-600 uppercase tracking-wider font-display">#{post.category}</span>
-                  )}
+                  {post.tags && post.tags.length > 0 && post.tags.map((tag: string) => (
+                    <span key={tag} className="text-xs font-bold text-slate-600 uppercase tracking-wider font-display">#{tag}</span>
+                  ))}
                 </div>
                 <div className="flex items-center justify-between pt-6 border-t-[3px] border-slate-100">
                   <span className="font-display font-bold text-slate-900 uppercase tracking-wider text-sm group-hover:text-brand-pink transition-colors inline-flex items-center gap-2">

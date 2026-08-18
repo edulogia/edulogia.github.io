@@ -2,7 +2,7 @@
 title: "Controllo Parentale nell'Era Digitale - La Flag School"
 excerpt: "Controllo Parentale nell'Era Digitale: Una Riflessione Condivisa tra Scuola, Genitori e Studenti"
 date: "2026-03-06"
-category: "Eventi"
+tags: ["Eventi"]
 imageUrl: "images/20260306-event_laflag-02.jpg"
 published: true
 draft: false
