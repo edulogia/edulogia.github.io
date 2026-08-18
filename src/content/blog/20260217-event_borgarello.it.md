@@ -1,10 +1,10 @@
 ---
 title: "Digitale, Insieme a Borgarello"
 slug: "event-digitale-insieme-borgarello-2026"
-excerpt: "The reasons behind the launch of this project. To EDUcate on techNOLOGY. Together."
+excerpt: "Un evento sull'educazione digitale a Borgarello, dove abbiamo parlato di controllo parentale, videogiochi e sviluppo del pensiero computazionale, con un approccio consapevole alla tecnologia. E dove i molti genitori presenti hanno condiviso sia la volontà di voler educare in questa direzione, sia le grandi difficoltà pratiche e sociali nella gestione quotidiana dei dispositivi con i figli."
 date: "2026-02-17"
 tags: ["Eventi", "CoderDojo", "Parental Control"]
-imageUrl: "images/20260217-event_borgarello-01.jpg"
+imageUrl: "/images/20260217-event_borgarello-01.jpg"
 published: true
 draft: false
 ---
@@ -22,8 +22,6 @@ Coerenti con passate esperienze anche le osservazioni dei tanti genitori present
 - La difficoltà di trovare riscontro nell'attenzione verso una corretta educazione al digitale negli altri gruppi familiari che si incontrano a scuola, nelle attività sportive, o semplicemente nel gruppo di amici
 - La scarsità di materiale affidabile ed esaustivo che possa supportare i genitori nei loro bisogni di educatori
 
-Insomma. Se da una parte **i relatori hanno condiviso che "è possibile"**, dall'altra **le famiglie hanno risposto con un "Si, ma è difficile"**.
-
-L'educazione è una rete intrecciata di iniziative. E c'è ancora molto fa dare.
+Insomma. Se da una parte **i relatori hanno condiviso che "è possibile"**, dall'altra **le famiglie hanno risposto con un "Si, ma è difficile"**. L'educazione è una rete intrecciata di iniziative. E c'è ancora molto da fare.
 
 Altri punti di vista sull'evento sul sito dell'associazione [comPVter](https://ctrlalt.museum/non-solo-codice-a-borgarello-genitori-e-figli-navigano-insieme-verso-il-futuro/).
